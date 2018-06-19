@@ -1,7 +1,5 @@
-Neo application wallet
+Neo application wallet Website. This is the web version of neo wallet. Procedure to use Neo-wallet:-
+
 
 - yarn install
-
-- bug- it may not install neo-js module, copy it from the original neo wallet node_modules
-
 - yarn start-dev
