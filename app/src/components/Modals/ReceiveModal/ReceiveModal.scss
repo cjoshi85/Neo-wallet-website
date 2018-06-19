@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.canvas {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.externalLink {
+    display: inline-block;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.copyKey {
+    margin-left: 5px;
+    color: #000;
+    &:hover {
+        opacity: .7;
+        cursor: pointer;
+    }        
+}
