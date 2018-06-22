@@ -24,7 +24,7 @@ export default class EncryptKey extends React.Component<Props, State> {
     wif: ''
   }
 
-  createWalletAccount = (e: SyntheticMouseEvent<*>) => {
+  createWalletAccount = (e:  SyntheticMouseEvent<*>) => {
     e.preventDefault()
     const { encryptWIF, history } = this.props
     const { passphrase, passphrase2, wif } = this.state
